@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B32BCC2AA5F76300520771 /* GasteiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BCB2AA5F76300520771 /* GasteiApp.swift */; };
+		57B32BCE2AA5F76300520771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BCD2AA5F76300520771 /* ContentView.swift */; };
+		57B32BD02AA5F76400520771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B32BCF2AA5F76400520771 /* Assets.xcassets */; };
+		57B32BD32AA5F76400520771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B32BD22AA5F76400520771 /* Preview Assets.xcassets */; };
+		57B32BDC2AA600BD00520771 /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BDB2AA600BD00520771 /* EditExpenseView.swift */; };
+		57B32BDF2AA601DD00520771 /* EditIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BDE2AA601DD00520771 /* EditIncomeView.swift */; };
+		57B32BE42AA604F700520771 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BE32AA604F700520771 /* Expense.swift */; };
+		57B32BE82AA6051200520771 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BE72AA6051200520771 /* Income.swift */; };
+		57B32BEC2AA6054700520771 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BEB2AA6054700520771 /* BudgetViewModel.swift */; };
+		57B32BF22AA605F600520771 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BF12AA605F600520771 /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57B32BC82AA5F76300520771 /* Gastei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gastei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B32BCB2AA5F76300520771 /* GasteiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasteiApp.swift; sourceTree = "<group>"; };
+		57B32BCD2AA5F76300520771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57B32BCF2AA5F76400520771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B32BD22AA5F76400520771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57B32BD42AA5F76400520771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B32BDB2AA600BD00520771 /* EditExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
+		57B32BDE2AA601DD00520771 /* EditIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIncomeView.swift; sourceTree = "<group>"; };
+		57B32BE32AA604F700520771 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		57B32BE72AA6051200520771 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		57B32BEB2AA6054700520771 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		57B32BF12AA605F600520771 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B32BC52AA5F76300520771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B32BBF2AA5F76300520771 = {
+			isa = PBXGroup;
+			children = (
+				57B32BCA2AA5F76300520771 /* Gastei */,
+				57B32BC92AA5F76300520771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B32BC92AA5F76300520771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B32BC82AA5F76300520771 /* Gastei.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B32BCA2AA5F76300520771 /* Gastei */ = {
+			isa = PBXGroup;
+			children = (
+				57B32BEF2AA6056600520771 /* Views */,
+				57B32BEA2AA6053100520771 /* ViewModels */,
+				57B32BE22AA604A700520771 /* Models */,
+				57B32BCB2AA5F76300520771 /* GasteiApp.swift */,
+				57B32BCF2AA5F76400520771 /* Assets.xcassets */,
+				57B32BD42AA5F76400520771 /* Info.plist */,
+				57B32BD12AA5F76400520771 /* Preview Content */,
+			);
+			path = Gastei;
+			sourceTree = "<group>";
+		};
+		57B32BD12AA5F76400520771 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57B32BD22AA5F76400520771 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57B32BE22AA604A700520771 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57B32BE32AA604F700520771 /* Expense.swift */,
+				57B32BE72AA6051200520771 /* Income.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57B32BEA2AA6053100520771 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				57B32BEB2AA6054700520771 /* BudgetViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		57B32BEF2AA6056600520771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57B32BCD2AA5F76300520771 /* ContentView.swift */,
+				57B32BDE2AA601DD00520771 /* EditIncomeView.swift */,
+				57B32BDB2AA600BD00520771 /* EditExpenseView.swift */,
+				57B32BF12AA605F600520771 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B32BC72AA5F76300520771 /* Gastei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B32BD72AA5F76400520771 /* Build configuration list for PBXNativeTarget "Gastei" */;
+			buildPhases = (
+				57B32BC42AA5F76300520771 /* Sources */,
+				57B32BC52AA5F76300520771 /* Frameworks */,
+				57B32BC62AA5F76300520771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gastei;
+			productName = Gastei;
+			productReference = 57B32BC82AA5F76300520771 /* Gastei.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B32BC02AA5F76300520771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					57B32BC72AA5F76300520771 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 57B32BC32AA5F76300520771 /* Build configuration list for PBXProject "Gastei" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B32BBF2AA5F76300520771;
+			productRefGroup = 57B32BC92AA5F76300520771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B32BC72AA5F76300520771 /* Gastei */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B32BC62AA5F76300520771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B32BD32AA5F76400520771 /* Preview Assets.xcassets in Resources */,
+				57B32BD02AA5F76400520771 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B32BC42AA5F76300520771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B32BCE2AA5F76300520771 /* ContentView.swift in Sources */,
+				57B32BCC2AA5F76300520771 /* GasteiApp.swift in Sources */,
+				57B32BEC2AA6054700520771 /* BudgetViewModel.swift in Sources */,
+				57B32BDC2AA600BD00520771 /* EditExpenseView.swift in Sources */,
+				57B32BDF2AA601DD00520771 /* EditIncomeView.swift in Sources */,
+				57B32BE82AA6051200520771 /* Income.swift in Sources */,
+				57B32BF22AA605F600520771 /* CardView.swift in Sources */,
+				57B32BE42AA604F700520771 /* Expense.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57B32BD52AA5F76400520771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57B32BD62AA5F76400520771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B32BD82AA5F76400520771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gastei/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gastei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unitins.Gastei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57B32BD92AA5F76400520771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gastei/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gastei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unitins.Gastei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B32BC32AA5F76300520771 /* Build configuration list for PBXProject "Gastei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B32BD52AA5F76400520771 /* Debug */,
+				57B32BD62AA5F76400520771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B32BD72AA5F76400520771 /* Build configuration list for PBXNativeTarget "Gastei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B32BD82AA5F76400520771 /* Debug */,
+				57B32BD92AA5F76400520771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B32BC02AA5F76300520771 /* Project object */;
+}
