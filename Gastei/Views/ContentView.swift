@@ -108,7 +108,30 @@ struct ContentView: View {
                 Text("Gastos")
             }
             
-            // Restante das abas...
+            VStack {
+                           Text("Estatísticas")
+                               .font(.largeTitle)
+                               .padding(.top, 20)
+                           
+                           // Adicione conteúdo relacionado a estatísticas aqui
+                           
+                           Spacer()
+                       }
+                       .tabItem {
+                           Image(systemName: "chart.bar.fill")
+                           Text("Estatísticas")
+                       }
+
+                       // Terceira aba - Login
+            VStack {
+                
+            }
+                       .tabItem {
+                           Image(systemName: "person.fill")
+                           Text("Login")
+                       }
+            
+                       
         }
     }
 }
