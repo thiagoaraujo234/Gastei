@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,13 @@
 		57B32BE82AA6051200520771 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BE72AA6051200520771 /* Income.swift */; };
 		57B32BEC2AA6054700520771 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BEB2AA6054700520771 /* BudgetViewModel.swift */; };
 		57B32BF22AA605F600520771 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B32BF12AA605F600520771 /* CardView.swift */; };
+		57BFA9552AC1B7BD008EE2AF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9542AC1B7BD008EE2AF /* User.swift */; };
+		57BFA9592AC1B97F008EE2AF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 57BFA9582AC1B97F008EE2AF /* SwiftUICharts */; };
+		57BFA95C2AC1BC8A008EE2AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA95B2AC1BC8A008EE2AF /* LoginViewModel.swift */; };
+		57BFA95F2AC1BCBA008EE2AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA95E2AC1BCBA008EE2AF /* LoginView.swift */; };
+		57BFA9622AC1BE66008EE2AF /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9612AC1BE66008EE2AF /* CadastroView.swift */; };
+		57BFA9652AC1C442008EE2AF /* GastosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9642AC1C442008EE2AF /* GastosView.swift */; };
+		57BFA9682AC1C45F008EE2AF /* EstatisticasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9672AC1C45F008EE2AF /* EstatisticasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,12 @@
 		57B32BE72AA6051200520771 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
 		57B32BEB2AA6054700520771 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
 		57B32BF12AA605F600520771 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		57BFA9542AC1B7BD008EE2AF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		57BFA95B2AC1BC8A008EE2AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		57BFA95E2AC1BCBA008EE2AF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		57BFA9612AC1BE66008EE2AF /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
+		57BFA9642AC1C442008EE2AF /* GastosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosView.swift; sourceTree = "<group>"; };
+		57BFA9672AC1C45F008EE2AF /* EstatisticasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstatisticasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BFA9592AC1B97F008EE2AF /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,7 @@
 			children = (
 				57B32BE32AA604F700520771 /* Expense.swift */,
 				57B32BE72AA6051200520771 /* Income.swift */,
+				57BFA9542AC1B7BD008EE2AF /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -96,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				57B32BEB2AA6054700520771 /* BudgetViewModel.swift */,
+				57BFA95B2AC1BC8A008EE2AF /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -107,6 +123,10 @@
 				57B32BDE2AA601DD00520771 /* EditIncomeView.swift */,
 				57B32BDB2AA600BD00520771 /* EditExpenseView.swift */,
 				57B32BF12AA605F600520771 /* CardView.swift */,
+				57BFA95E2AC1BCBA008EE2AF /* LoginView.swift */,
+				57BFA9612AC1BE66008EE2AF /* CadastroView.swift */,
+				57BFA9642AC1C442008EE2AF /* GastosView.swift */,
+				57BFA9672AC1C45F008EE2AF /* EstatisticasView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +147,9 @@
 			dependencies = (
 			);
 			name = Gastei;
+			packageProductDependencies = (
+				57BFA9582AC1B97F008EE2AF /* SwiftUICharts */,
+			);
 			productName = Gastei;
 			productReference = 57B32BC82AA5F76300520771 /* Gastei.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 57B32BBF2AA5F76300520771;
+			packageReferences = (
+				57BFA9572AC1B97F008EE2AF /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 57B32BC92AA5F76300520771 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -184,9 +210,15 @@
 				57B32BCC2AA5F76300520771 /* GasteiApp.swift in Sources */,
 				57B32BEC2AA6054700520771 /* BudgetViewModel.swift in Sources */,
 				57B32BDC2AA600BD00520771 /* EditExpenseView.swift in Sources */,
+				57BFA9652AC1C442008EE2AF /* GastosView.swift in Sources */,
 				57B32BDF2AA601DD00520771 /* EditIncomeView.swift in Sources */,
+				57BFA9622AC1BE66008EE2AF /* CadastroView.swift in Sources */,
+				57BFA9682AC1C45F008EE2AF /* EstatisticasView.swift in Sources */,
+				57BFA9552AC1B7BD008EE2AF /* User.swift in Sources */,
 				57B32BE82AA6051200520771 /* Income.swift in Sources */,
 				57B32BF22AA605F600520771 /* CardView.swift in Sources */,
+				57BFA95F2AC1BCBA008EE2AF /* LoginView.swift in Sources */,
+				57BFA95C2AC1BC8A008EE2AF /* LoginViewModel.swift in Sources */,
 				57B32BE42AA604F700520771 /* Expense.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		57BFA9572AC1B97F008EE2AF /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57BFA9582AC1B97F008EE2AF /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57BFA9572AC1B97F008EE2AF /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 57B32BC02AA5F76300520771 /* Project object */;
 }

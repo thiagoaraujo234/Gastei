@@ -109,13 +109,7 @@ struct ContentView: View {
             }
             
             VStack {
-                           Text("Estatísticas")
-                               .font(.largeTitle)
-                               .padding(.top, 20)
-                           
-                           // Adicione conteúdo relacionado a estatísticas aqui
-                           
-                           Spacer()
+                    
                        }
                        .tabItem {
                            Image(systemName: "chart.bar.fill")
@@ -124,7 +118,7 @@ struct ContentView: View {
 
                        // Terceira aba - Login
             VStack {
-                
+                LoginView()
             }
                        .tabItem {
                            Image(systemName: "person.fill")
@@ -139,7 +133,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
             ContentView()
         }
     }
