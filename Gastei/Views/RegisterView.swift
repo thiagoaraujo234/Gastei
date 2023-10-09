@@ -1,7 +1,8 @@
+import Foundation
 import SwiftUI
 
-struct LoginView: View {
-    @ObservedObject var viewModel = LoginViewModel()
+struct RegisterView: View {
+    @ObservedObject var viewModel = RegisterViewModel()
     @State private var isShowingRegistration = false
     @State private var isRegistrationActive = false
     
@@ -18,10 +19,13 @@ struct LoginView: View {
                     
                     SecureField("Senha", text: $viewModel.password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                    
+                    TextField("Email", text: $viewModel.email)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
                 
-                Button(action: viewModel.login) {
-                    Text("Entrar")
+                Button(action: viewModel.register) {
+                    Text("Registrar")
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.blue)
@@ -32,16 +36,21 @@ struct LoginView: View {
                 
                 HStack {
                     Spacer()
-                    // Use o NavigationLink para redirecionar para a tela de registro
-                    NavigationLink(destination: RegisterView()) {
-                        Text("Cadastre-se aqui")
-                            .frame(maxWidth: .infinity)
-                            .foregroundColor(.blue)
+                    Button(action: {
+                        isRegistrationActive = true
+                        isShowingRegistration.toggle()
+                    }) {
+                        // Use o NavigationLink para redirecionar para a tela de registro
+                        NavigationLink(destination: LoginView()) {
+                            Text("Já tenho uma conta")
+                                .frame(maxWidth: .infinity)
+                                .foregroundColor(.blue)
+                        }
                     }
-                        
+
                     .padding(.bottom) // Adiciona espaço abaixo do botão
                     .sheet(isPresented: $isShowingRegistration) {
-                        //CHAMADA DA TELA 
+                        //CHAMADA DA TELA
                     }
                 }
                 
@@ -55,8 +64,8 @@ struct LoginView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        RegisterView()
     }
 }

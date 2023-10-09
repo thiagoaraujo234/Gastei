@@ -110,22 +110,20 @@ struct ContentView: View {
             
             VStack {
                     
-                       }
-                       .tabItem {
-                           Image(systemName: "chart.bar.fill")
-                           Text("Estatísticas")
-                       }
+           }
+           .tabItem {
+               Image(systemName: "chart.bar.fill")
+               Text("Estatísticas")
+           }
 
-                       // Terceira aba - Login
+           // Terceira aba - Login
             VStack {
                 LoginView()
             }
-                       .tabItem {
-                           Image(systemName: "person.fill")
-                           Text("Login")
-                       }
-            
-                       
+           .tabItem {
+               Image(systemName: "person.fill")
+               Text("Login")
+           }
         }
     }
 }

@@ -21,9 +21,10 @@
 		57BFA9592AC1B97F008EE2AF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 57BFA9582AC1B97F008EE2AF /* SwiftUICharts */; };
 		57BFA95C2AC1BC8A008EE2AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA95B2AC1BC8A008EE2AF /* LoginViewModel.swift */; };
 		57BFA95F2AC1BCBA008EE2AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA95E2AC1BCBA008EE2AF /* LoginView.swift */; };
-		57BFA9622AC1BE66008EE2AF /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9612AC1BE66008EE2AF /* CadastroView.swift */; };
+		57BFA9622AC1BE66008EE2AF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9612AC1BE66008EE2AF /* RegisterView.swift */; };
 		57BFA9652AC1C442008EE2AF /* GastosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9642AC1C442008EE2AF /* GastosView.swift */; };
 		57BFA9682AC1C45F008EE2AF /* EstatisticasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFA9672AC1C45F008EE2AF /* EstatisticasView.swift */; };
+		57F7B5D02ACADF89003D1460 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7B5CF2ACADF89003D1460 /* RegisterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,9 +43,10 @@
 		57BFA9542AC1B7BD008EE2AF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		57BFA95B2AC1BC8A008EE2AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		57BFA95E2AC1BCBA008EE2AF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		57BFA9612AC1BE66008EE2AF /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
+		57BFA9612AC1BE66008EE2AF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		57BFA9642AC1C442008EE2AF /* GastosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosView.swift; sourceTree = "<group>"; };
 		57BFA9672AC1C45F008EE2AF /* EstatisticasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstatisticasView.swift; sourceTree = "<group>"; };
+		57F7B5CF2ACADF89003D1460 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				57B32BEB2AA6054700520771 /* BudgetViewModel.swift */,
 				57BFA95B2AC1BC8A008EE2AF /* LoginViewModel.swift */,
+				57F7B5CF2ACADF89003D1460 /* RegisterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 				57B32BDB2AA600BD00520771 /* EditExpenseView.swift */,
 				57B32BF12AA605F600520771 /* CardView.swift */,
 				57BFA95E2AC1BCBA008EE2AF /* LoginView.swift */,
-				57BFA9612AC1BE66008EE2AF /* CadastroView.swift */,
+				57BFA9612AC1BE66008EE2AF /* RegisterView.swift */,
 				57BFA9642AC1C442008EE2AF /* GastosView.swift */,
 				57BFA9672AC1C45F008EE2AF /* EstatisticasView.swift */,
 			);
@@ -210,9 +213,10 @@
 				57B32BCC2AA5F76300520771 /* GasteiApp.swift in Sources */,
 				57B32BEC2AA6054700520771 /* BudgetViewModel.swift in Sources */,
 				57B32BDC2AA600BD00520771 /* EditExpenseView.swift in Sources */,
+				57F7B5D02ACADF89003D1460 /* RegisterViewModel.swift in Sources */,
 				57BFA9652AC1C442008EE2AF /* GastosView.swift in Sources */,
 				57B32BDF2AA601DD00520771 /* EditIncomeView.swift in Sources */,
-				57BFA9622AC1BE66008EE2AF /* CadastroView.swift in Sources */,
+				57BFA9622AC1BE66008EE2AF /* RegisterView.swift in Sources */,
 				57BFA9682AC1C45F008EE2AF /* EstatisticasView.swift in Sources */,
 				57BFA9552AC1B7BD008EE2AF /* User.swift in Sources */,
 				57B32BE82AA6051200520771 /* Income.swift in Sources */,
