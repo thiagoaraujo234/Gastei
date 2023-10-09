@@ -10,8 +10,10 @@ struct LoginView: View {
             VStack(alignment: .leading, spacing: 20) {
                 Text("Bem-vindo")
                     .font(.largeTitle)
-                    .padding(.bottom, 20)
+                    .padding(.bottom, 1	)
                 
+                Text("Acesse com seus dados para autenticar!")
+                    .padding(.bottom, 5)
                 VStack(alignment: .leading, spacing: 10) {
                     TextField("Nome de usuário", text: $viewModel.username)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -41,7 +43,7 @@ struct LoginView: View {
                         
                     .padding(.bottom) // Adiciona espaço abaixo do botão
                     .sheet(isPresented: $isShowingRegistration) {
-                        //CHAMADA DA TELA 
+                        //CHAMADA DA TELA
                     }
                 }
                 
